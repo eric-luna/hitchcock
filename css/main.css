@@ -7,7 +7,7 @@ body,html{
 	linear-gradient(
 		rgba(239, 201, 76, 0.20), 
 		rgba(239, 201, 157, 0.20)
-		), url('https://static-secure.guim.co.uk/sys-images/Guardian/Pix/pictures/2015/3/31/1427806892553/Alfred-Hitchcock-poses-fo-009.jpg') no-repeat fixed center;
+		), url('../img/alfred.jpg') no-repeat fixed center;
 	margin: 0 auto;
 	padding: 250px 0;
 	background-size:cover;
@@ -31,12 +31,12 @@ h5{
   text-align: center;
 }
 .intro{
-	padding: 5%;
-  	font-family: 'Source Sans Pro', sans-serif;
-    font-size:16px;
-    padding:5%;
-    line-height:25px;
-    font-weight:500;
+ padding: 5%;
+ font-family: 'Source Sans Pro', sans-serif;
+ font-size:16px;
+ padding:5%;
+ line-height:25px;
+ font-weight:500;
 }
 
 hr{
@@ -57,5 +57,38 @@ h4{
 }
 .buttons{
 	text-align: center;
+}
+footer {
+  clear: both;
+  margin: auto;
+  margin-top: 5%;
+  text-align: center;
+  color: black;
+}
+footer a:link{
+  text-decoration: none;
+  color: blue;
+  font-size: 1.3em;
+  font-weight: bolder;
+}
+footer a:visited{
+  color: blue;
+  text-decoration: none;
+  font-weight: bolder;
+}
+footer ul{
+  padding: 0;
+  margin: auto;
+  list-style: none;
+}
+footer li{
+  display: inline-block;
+  padding: 0;
+}
+/*Responsive Design*/
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .vanishes{
+    clear: both;
+  }
 }
 
